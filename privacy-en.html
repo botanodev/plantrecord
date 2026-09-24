@@ -40,7 +40,7 @@
 <h1>Botano - Plant Growth Journal — Privacy Policy</h1>
 <p class="meta">
   Effective date: 10 September 2026<br>
-  Last updated: 23 September 2026
+  Last updated: 24 September 2026
 </p>
 
 <h2>In one sentence</h2>
@@ -160,43 +160,31 @@
   use it to answer you and to fix the problem, and nothing else.
 </p>
 
-<h2>Permissions the app requests, and why</h2>
+<h2>What the app is allowed to do on your phone</h2>
 <p>
-  Every permission below exists to make a feature work. None of them is used
-  to collect information about you.
+  Each of these exists to make a feature work. None of them is used to collect
+  information about you.
 </p>
-<table>
-  <tr><th>Permission</th><th>Why</th></tr>
-  <tr>
-    <td><code>POST_NOTIFICATIONS</code></td>
-    <td>To show watering reminders. Without it, reminders are scheduled but
-        never appear.</td>
-  </tr>
-  <tr>
-    <td><code>SCHEDULE_EXACT_ALARM</code></td>
-    <td>So a reminder set for 8:00 arrives at 8:00. If it is unavailable, the
-        app falls back to inexact scheduling and the reminder still
-        arrives, just later.</td>
-  </tr>
-  <tr>
-    <td><code>RECEIVE_BOOT_COMPLETED</code></td>
-    <td>Android clears all scheduled alarms when the device restarts. This lets
-        the app restore your reminders afterwards.</td>
-  </tr>
-  <tr>
-    <td><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code></td>
-    <td>Required by the advertising and purchase-verification services.</td>
-  </tr>
-  <tr>
-    <td><code>com.google.android.gms.permission.AD_ID</code></td>
-    <td>Used by Google AdMob to deliver and measure advertising.</td>
-  </tr>
-  <tr>
-    <td><code>WAKE_LOCK</code>, <code>FOREGROUND_SERVICE</code>,
-        <code>VIBRATE</code></td>
-    <td>Required by the notification and advertising libraries.</td>
-  </tr>
-</table>
+<ul>
+  <li><strong>Send notifications</strong> — watering reminders need this to
+      appear at all. Without it they are scheduled but never show up.</li>
+  <li><strong>Schedule something for an exact time</strong> — so a reminder
+      set for 8:00 arrives at 8:00. Without it the reminder still arrives,
+      just later.</li>
+  <li><strong>Reschedule after a restart</strong> — Android clears every
+      scheduled reminder when the device restarts; this is what puts yours
+      back.</li>
+  <li><strong>Use the internet</strong> — only to load ads and to confirm a
+      purchase.</li>
+  <li><strong>The advertising identifier</strong> — used by Google AdMob to
+      deliver and measure ads. This is the only identifier tied to you here,
+      and you can reset it at any time in your device settings.</li>
+</ul>
+<p>
+  Beyond those there are a few technical permissions that come bundled with
+  the notification and advertising libraries — keeping the device awake for
+  the moment a notification is delivered, for example. They collect nothing.
+</p>
 <p>
   <strong>The app does not request permission to read your photo library or to
   use your camera.</strong> Importing photos goes through the system photo
